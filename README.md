@@ -99,3 +99,12 @@ Built and deployed an NLP-based tool to classify game reviews using BERT variant
   1) Learning Curve
   2) Classification Report
   3) Confusion Matrix
+
+---
+
+# Streamlit Deployment
+- The "Streamlit_app" file contains all the code needed to deploy the application, which includes four different features:
+  1) Use Pre-Built Model Classify Review (Logistic Regression)
+  2) Customize Your Own Model
+  3) Upload Custom Model to Classify Review
+  4) Chat with the Gemini API
