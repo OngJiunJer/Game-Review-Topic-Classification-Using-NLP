@@ -3,8 +3,8 @@ from PIL import Image
 import google.generativeai as genai
 import io
 
-# Configure API key
-genai.configure(api_key="AIzaSyAcLmptKEVcBIAcxKv5v89n3wEmyvQ10Jg")
+# Configure API key (Need to put your own gemini API)
+genai.configure(api_key="")
 
 # Load Gemini model
 model = genai.GenerativeModel(model_name="gemini-2.0-flash")
